@@ -3,11 +3,11 @@
   <title>Write</title>
 </head>
 <body>
-
+<p><a href="more.php">More options (Updated every week!)</a></p>
 <?php
   
-mysql_connect("bm", "fb", "A")or die("cannot connect server "); 
-mysql_select_db("fb")or die("cannot select DB");
+mysql_connect("ONCE AGAIN THIS IS THE DOMAIN", "AND THE USER NAME", "AND THE PASSWORD")or die("cannot connect server "); 
+mysql_select_db("and the table")or die("cannot select DB");
 
 $datetime=date("y-m-d h:i:s"); //date time
 
