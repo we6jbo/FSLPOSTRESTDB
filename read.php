@@ -1,9 +1,10 @@
 <html>
 <head>
-  <title>Database</title>
+  <title>Read</title>
 </head>
 <body>
 <p><a href="begin.php">Write to database</a></p>
+<p><a href="more.php">More options (Updated every week!)</a></p>
 
 <p><a href="https://github.com/we6jbo/FSLPOSTRESTDB">Source code</a></p>
 
@@ -12,9 +13,9 @@
 
 <?php
 
-mysql_connect("bm", "fb", "")or die("cannot connect server "); 
-mysql_select_db("fb")or die("cannot select DB");
-$sql="SELECT * FROM da";
+mysql_connect("CHANGE THIS TO THE DOMAIN WHERE YOUR DATABASE IS LOCATED", "CHANGE THIS TO THE ACCOUNT NAME", "CHANGE THIS TO THE ACCOUNT PW")or die("cannot connect server "); 
+mysql_select_db("fslpostrestdb")or die("cannot select DB");
+$sql="SELECT * FROM change this to your table name";
 $result=mysql_query($sql);
 while($rows=mysql_fetch_array($result)){
 ?>
