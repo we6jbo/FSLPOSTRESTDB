@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Write</title>
+<title>Begin</title>
 </head>
 <body>
 <form action="write.php" id="form1" method="post" name="form1">
@@ -13,6 +13,7 @@
 <p><input name="Submit" type="submit" value="Submit" /></p>
 
 <p><a href="read.php">Read database</a></p>
+<p><a href="more.php">More options (Updated every week!)</a></p>
 </form>
 </body>
 </html>
